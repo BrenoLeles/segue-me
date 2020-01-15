@@ -1,0 +1,245 @@
+.logo-in-login {
+
+    display:inline-flex;
+
+}
+
+.logo-in-login img{
+
+    margin: 0 auto;
+
+    max-width: 60%;
+
+}
+
+.button-menu-mobile {
+    color:#1e1e1e;
+}
+.button-menu-mobile:hover {
+    color:#333333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #1e1e1e !important;
+}
+
+.radio-buttom-mesma-linha {
+
+    display: inline-flex;
+
+}
+
+.radio-buttom-mesma-linha input[type="radio"] {
+
+    width: 15px;
+
+    margin: auto;
+
+    padding-right: 5px;
+
+    margin-right: 5px;
+
+    height: 15px;
+
+}
+
+.observacao {
+
+    font-style: italic;
+
+}
+
+.padd-bottom-vinte{
+
+    padding-bottom: 20px;
+
+}
+
+.tamanho-cem{
+
+    width: 100%;
+
+}
+
+.tamanho-oitenta{
+
+    width: 80%;
+
+}
+
+.logo img{
+
+    max-width: 60px;
+
+}
+
+.fixed-left-void .topbar-left .logo img{
+
+    max-width: 50px;
+
+}
+
+.elemento-solitario{
+
+    padding: 20px 0;
+
+}
+
+.navbar-default {
+    background-color: #fafafa;
+}
+
+
+
+/* INÍCIO ESTILO DE SnackBar */
+
+#snackbarAviso {
+
+    min-width: 50vw;
+
+    /* margin-left: -125px; */
+
+    background-color: #333;
+
+    color: #fff;
+
+    text-align: left;
+
+    border-radius: 0px;
+
+    padding: 10px;
+
+    position: fixed;
+
+    z-index: 1;
+
+    left: 25vw;
+
+	bottom: 30px;
+
+	opacity: 0.9;
+
+	-webkit-animation: snackbarAparecer 0.5s, snackbarSair 0.5s 4.5s;
+
+	animation: snackbarAparecer 0.5s, snackbarSair 0.5s 4.5s;
+
+}
+
+@media only screen and (max-width: 776px) {
+
+    #snackbarAviso {
+
+        min-width: 80vw;
+
+        left: 10vw;        
+
+    }
+
+}
+
+#snackbarAviso p {
+
+	margin: auto 0;
+
+    float: left;
+
+    margin-left: 10px;
+
+	font-size: 1.1em;
+
+}
+
+#snackbarAviso span {
+
+	float: left;
+
+	padding: 0 5px;
+
+	font-size: 1.8em;
+
+	color: #fffa15;
+
+}
+
+
+
+@-webkit-keyframes snackbarAparecer {
+
+	from {bottom: 0; opacity: 0;} 
+
+	to {bottom: 30px; opacity: 0.9;}
+
+}
+
+
+
+@keyframes snackbarAparecer {
+
+	from {bottom: 0; opacity: 0;}
+
+	to {bottom: 30px; opacity: 0.9;}
+
+}
+
+
+
+@-webkit-keyframes snackbarSair {
+
+	from {bottom: 30px; opacity: 1;} 
+
+	to {bottom: 0; opacity: 0;}
+
+}
+
+
+
+@keyframes snackbarSair {
+
+	from {bottom: 30px; opacity: 1;}
+
+	to {bottom: 0; opacity: 0;}
+
+}
+
+/* FIM ESTILO DE SnackBar */
+
+
+
+
+
+/* PÁGINA INDEX DE PESSOA */
+
+.imagem-foto-tabela{
+
+    max-width: 50px;
+
+}
+
+.pessoa-coluna-foto{
+
+    width: 5%;
+
+}
+
+.pessoa-coluna-nome{
+
+    /* width: 5%; */
+
+}
+
+.pessoa-coluna-equipe{
+
+    width: 20%;
+
+}
+
+.pessoa-coluna-funcoes{
+
+    width: 5%;
+
+}
+
+/* PAGINA DE VISUALIZAR */
+.imagem-perfil-visu img{
+    max-width: 100%;
+}
